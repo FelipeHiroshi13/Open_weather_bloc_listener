@@ -1,16 +1,18 @@
 # Open Weather Bloc Listener
 
-A new Flutter project.
+A Flutter project with Bloc and a Weather API from "Open Weather Map". 
 
-## Getting Started
+## Features using Bloc
 
-This project is a starting point for a Flutter application.
+There are many features in this project using Bloc such as:
 
-A few resources to get you started if this is your first Flutter project:
+- Change temperature between ℃ and ℉;
+- Theme app changes the temperature accordingly, if it is bigger than a constant (kWarnOrNot) the theme app will be light. On the other hand, it’ll be dark;
+- Bloc deals with the API response, with Weather status like initial, loading, loaded and error.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Screenshots
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+|                                                                                       |                                                                                                                    |                                                                                                    |
+|:-------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------:|
+|           <img width="1604" alt="Initial" src="screenshots/initial.png">  Initial State            |                       <img width="1604" alt="temp_settings" src="screenshots/temp_settings.png"> Temp Settings                        |                    <img width="1604" alt="select_a_city" src="screenshots/select_a_city.png"> Select a city                    |
+|           <img width="1604" alt="london" src="screenshots/london.png">  Dark Theme             |                       <img width="1604" alt="campo_grande" src="screenshots/campo_grande.png"> Light Theme                      
