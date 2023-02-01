@@ -1,4 +1,4 @@
-# open_weather_cubit
+# Open Weather Bloc Listener
 
 A new Flutter project.
 
